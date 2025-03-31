@@ -2,8 +2,8 @@
  * Disponemos de una función que debe formatear un string, en función del resultado de un partido de fútbol (es para una página Web deportiva). 
  * 
  * 
- * @param {array<string>} scores Los competidores del partido, en un array de strings, siempre de dos posiciones
- * @param {array<number>} teams Las goles que han metido cada equipo, respectivamente.
+ * @param {array<string>} teams Los competidores del partido, en un array de strings, siempre de dos posiciones
+ * @param {array<number>} scores Las goles que han metido cada equipo, respectivamente.
  * 
  * @returns {string} Resultado del partido, siguiendo el formato indicado en los comentarios, según si ha ganado el primer equipo, el segundo, o ha habido empate.   
 */
