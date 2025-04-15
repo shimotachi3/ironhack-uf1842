@@ -13,7 +13,7 @@
         <div>
             <label for="username">Enter GitHub username:</label>
             <input type="text" id="username" name="username">
-            <button>Get Info</button>
+            <button id="get-info">Get Info</button>
         </div>
         <table>
             <thead>
@@ -29,11 +29,11 @@
                     <td id="fullName"></td>
                     <td id="bio"></td>
                     <td><img id="profilePicture" src="" alt=""></td>
-                    <td id="homeUrl"></td>
+                    <td><a id="homeUrl" target="_blank"></a></td>
                 </tr>
             </tbody>
         </table>
     </main>
+    <script src="app.js"></script>
 </body>
-
 </html>
